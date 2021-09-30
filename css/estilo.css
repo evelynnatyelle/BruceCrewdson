@@ -1,0 +1,507 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+}
+
+
+
+:root{
+  --cor-vermelho-escuro: #330000;
+  --cor-preto: #000000;
+  --cor-cinza: #3C3A3D;
+  --cor-fonte:#FFFFFF;
+  --cor-marron: #170A01;
+}
+
+html{
+font-size: 62.5%;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color:var(--cor-preto);
+    font-size: 1.6rem;
+    color: var(--cor-fonte);
+    
+    
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+header{
+    background: #000000;
+    height: 290px;
+    border-bottom: 7px solid var(--cor-marron);
+   border-top: 7px solid var(--cor-marron);
+}
+
+.logo{
+  position: absolute;
+  width: 276px;
+  height: 283px;
+  left: 1000px;
+  top: 15px;
+}
+
+.gif{
+    position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 4px;
+  top: 1310px;
+}
+
+.gif-dois{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    left: 558px;
+    top: 170px;
+  }
+
+header .logo-alt{
+    display:none;
+}
+
+.Bruce{
+    font-family: "tangerine", 'cursive', Times, serif;
+    font-size: 180px;
+    left: px;
+}
+
+p{
+    font-family:"medieval", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    left: 3px;
+top: 221px;
+}
+
+
+
+
+.mulher-com-lua{
+    position: absolute;
+    width: 400px;
+    height: 436px;
+
+}
+
+.garota-de-capa{
+    position: absolute;
+    width: 450px;
+    height: 436px;
+    left: 400px;
+}
+
+.maos{
+    position: absolute;
+    width: 450px;
+    height: 436px;
+    left: 825px;
+}
+
+.mulher-com-caveira{
+position: absolute;
+width: 401px;
+height: 436px;
+left: 0px;
+top: 853px;
+}
+
+.mariposa{
+    position: absolute;
+    width: 457px;
+    height: 436px;
+    left: 400px;
+    top: 853px;
+}
+
+.bruxa{
+ position: absolute;
+width: 425px;
+height: 436px;
+top: 853px;
+left: 850px;
+
+}
+
+.facebook{
+    position: absolute;
+width: 100px;
+height: 90px;
+left: 1130px;
+top: 1400px;
+background-color: var(--cor-fonte);
+}
+
+.instagram{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 1030px;
+    top: 1400px;
+    background-color:var(--cor-fonte);
+}
+
+
+.final{
+    font-family: "tangerine", 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:var(--cor-fonte);
+    position:relative;
+    top: 955px;
+    left: 0px;  
+    width: 97%;  
+    background-color: var(--cor-vermelho-escuro);
+    margin: 0 auto;
+}
+
+footer.final{
+    width:90%;
+}
+
+footer .final > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  
+}
+
+.meio{
+    font-family: "tangerine", 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: var(--cor-fonte);
+    position: relative;
+    top:455px;
+    left: 0px;
+    }
+    
+.meio > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color:var(--cor-vermelho-escuro);
+    width: 97%;
+    margin: 0 auto;
+   
+ 
+    }
+
+.meio a{
+    color: var(--cor-fonte);
+    text-decoration: none;
+}
+
+.final a{
+    color: var(--cor-fonte);
+    text-decoration: none;
+}
+
+
+.final a:hover, .meio a:hover{
+    color: var(--cor-cinza);
+    border-bottom: .7rem solid var(--cor-cinza);
+}
+
+.img1{
+    position: absolute;
+    width: 380px;
+    height: 460px;
+    left:10px;
+    top: 640px;
+   
+}
+
+.img2{
+    position: absolute;
+    width: 425px;
+    height: 460px;
+    left: 400px;
+    top: 640px;
+}
+
+.img9{
+    position: absolute;
+    width: 425px;
+    height: 460px;
+    left: 835px;
+    top: 640px;
+}
+
+.img4{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left:10px;
+    top: 1840px;
+}
+
+.img3{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left:442px;
+    top: 1840px;
+}
+
+.img6{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 870px;
+    top: 1840px;
+}
+
+.img5{
+    position: absolute;
+    width: 380px;
+    height: 436px;
+    left:10px;
+    top: 1250px;
+}
+
+.img7{
+    position: absolute;
+    width: 380px;
+    height: 436px;
+    left:442px;
+    top: 1250px;
+}
+
+.img8{
+    position: absolute;
+    width: 380px;
+    height: 436px;
+    left:870px;
+    top: 1250px;
+}
+
+.img10{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left:870px;
+    top: 2470px;
+}
+
+.img11{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 442px;
+    top: 2470px;
+}
+
+.img12{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 10px;
+    top: 2470px;
+}
+
+.img14{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 10px;
+    top: 3090px;
+}
+
+.img13{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 870px;
+    top: 3090px;
+}
+
+
+.img15{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    left: 442px;
+    top: 3090px;
+}
+
+.maisfotos >ul{
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color:var(--cor-marron);
+    width: 97%;
+    margin: 0 auto;
+}
+
+.maisfotos{
+    font-family: "medieval", 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: var(--cor-fonte);
+    position: relative;
+    top:120px;
+    left: 0px;
+}
+
+.fim{
+    font-family: "medieval", 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: var(--cor-fonte);
+    position: relative;
+    top:3300px;
+    left: 0px;
+    }
+
+    .fim > ul{
+        display: flex;
+        justify-content:space-evenly;
+        list-style: none;
+    
+        background-color:var(--cor-marron);
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .fim a{
+        color: var(--cor-fonte);
+        text-decoration: none;
+    }
+
+    .fim a:hover{
+        color: var(--cor-cinza);
+        border-bottom: .7rem solid var(--cor-cinza);
+    }
+
+   .conteudo form{
+       margin-top: 2rem;
+   }
+
+    .mapa{
+        position: absolute;
+        width: 1000px;
+        height: 500px;
+        left: 150px;
+        top: 750px;
+    }.mapa1{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 500px;
+        top: 930px;
+    }
+
+    .encomendas{
+        font-family: "medieval", 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color: var(--cor-fonte);
+        position: relative;
+        top:800px;
+        left: 0px;
+        }
+
+    .encomendas >ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        background-color:var(--cor-marron);
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .encomendas a{
+        color: var(--cor-fonte);
+        text-decoration: none;
+    }
+
+   .vinte{
+    font-family: "tangerine", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--cor-fonte);
+    position: relative;
+    top:20px;
+    left: 100px;
+    background-color: var(--cor-vermelho-escuro);
+    }
+
+    .vinte a, .cinquenta a, .cem a{
+        color: var(--cor-fonte);
+        text-decoration: none;
+    }
+
+    .cinquenta{
+        font-family: "tangerine", 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: var(--cor-fonte);
+        position: relative;
+        top:20px;
+        left: 50px;
+        background-color: var(--cor-vermelho-escuro);
+        }
+
+        .cem{
+            font-family: "tangerine", 'Times New Roman', Times, serif;
+            font-size: 40px;
+            color: var(--cor-fonte);
+            position: relative;
+            top:67px;
+            left: 50px;
+            background-color: var(--cor-vermelho-escuro);
+            }
+
+            button :hover{
+                color: var(--cor-cinza);
+                border-bottom: .7rem solid var(--cor-cinza);
+            }
+
+            button{
+                border-radius: 1rem;
+            }
+
+            .whats{
+                font-family: "medieval", 'Times New Roman', Times, serif;
+                font-size: 30px;
+                color: var(--cor-fonte);
+                position: relative;
+                top:900px;
+                left: 200px;
+                background-color: var(--cor-marron);
+                }
+
+                .tel{
+                    font-family: "medieval", 'Times New Roman', Times, serif;
+                    font-size: 30px;
+                    color: var(--cor-fonte);
+                    position: relative;
+                    top:900px;
+                    left: 150px;
+                    background-color: var(--cor-marron);
+                    }
+
+                    .conteudo form{
+                    margin-top: 30px;;
+                    }
+
+                       
+
+                   
+
+                    
+
+
+        
+        
